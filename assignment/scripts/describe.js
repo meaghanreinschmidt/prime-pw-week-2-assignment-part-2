@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to 'Dane' as a name.
+// We create a conditional statment with two types of statements - and 'if' and an 'else' statement.
+// The conditional statement contains an 'if' statement where the name variable is equal to 'Mary'.
+// The second half of the conditional includes an 'else' statement where the name variable is anything other than 'Mary'.
+// We console.log 'How do you do?' instead of 'Hi, Mary!' becuase Dane is not equal to Mary. 
 
 //CODE
 /*
@@ -44,11 +45,16 @@ if (name === 'Mary') {
 
 */
 
-// 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 2. WRITE YOUR DESCRIPTION HERE CONDITIONALS CONCEPTUAL 
+// We make a variable called secret.
+// We make another variable called code and set it as 123 as a code.
+// We create two 'if' conditional statements.
+// The first 'if' statement has the code variable equaling 123.
+// In the case of code equaling 123, the secret variable will equal 'super' and the code variable will equal the code multiplied by 2. 
+// The second 'if' statement has a code variable greater than 250.
+// In the case of the code being greater than 250, the secret variable will equal 'duper'.
+// If we console.log(secret), we print 'super' because the code variable equals 123.
+// The code is then multiplied times two which makes the code equal to 246 which is less than 250 so the console.log will still remain 'super'.
 
 //CODE
 /*
@@ -70,10 +76,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true as a boolean.
+// We make a variable called age and set it as 34 as an age. 
+// We make a variable called zip and set it as 55407 as a zip code.
+// We create a conditional statement with an 'if', 'else if', 'else if', and 'else statment'.
+// The 'if' statement contains the condition that if the isStudent variable is equal to true 
+    //AND the zip variable is greater than 80000, then the console.log will print, 'You're a student on the West Coast!'.
+// The first 'else if' statement contains the condition that if the isStudent variable is equal to false 
+    //OR the age variable is less than 30, then the console.log will print, 'What are your hobbies?'.
+// The second 'else if' statement contains the condition that if the isStudent variable is equal to true
+    // (and no other condition is added), then the console.log will print, 'Welcome to Prime!'.
+// The 'else' statement implies that if there is a combination of set variables that does 
+    // NOT fit in with the other conditions, then the console.log will print, 'How about the weather?'.
 
 //CODE
 /*
@@ -130,12 +144,19 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - let colorOne = 'blue';
+// Should be blue, not red.
 let colorOne = 'red';
+// FIX - let colorTwo = 'red';
+// Should be red, not blue.
 let colorTwo = 'blue';
 let mix = true;
 
+// 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - colorTwo ='purple';
+// Should have colorTwo set as purple as well as colorOne.
 }
 */
 
