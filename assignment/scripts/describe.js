@@ -50,11 +50,11 @@ if (name === 'Mary') {
 // We make another variable called code and set it as 123 as a code.
 // We create two 'if' conditional statements.
 // The first 'if' statement has the code variable equaling 123.
-// In the case of code equaling 123, the secret variable will equal 'super' and the code variable will equal the code multiplied by 2. 
+// In the case of code equaling 123, the secret variable will equal 'super' and the code variable will then equal the code multiplied by 2. 
 // The second 'if' statement has a code variable greater than 250.
 // In the case of the code being greater than 250, the secret variable will equal 'duper'.
 // If we console.log(secret), we print 'super' because the code variable equals 123.
-// The code is then multiplied times two which makes the code equal to 246 which is less than 250 so the console.log will still remain 'super'.
+// The code is then multiplied times two which makes the code equal to 246 which is still less than 250 so the console.log will still remain 'super'.
 
 //CODE
 /*
@@ -79,7 +79,7 @@ console.log(secret)
 // We make a variable called isStudent and set it to true as a boolean.
 // We make a variable called age and set it as 34 as an age. 
 // We make a variable called zip and set it as 55407 as a zip code.
-// We create a conditional statement with an 'if', 'else if', 'else if', and 'else statment'.
+// We create a conditional statement with an 'if', 'else if', 'else if', and 'else' statment.
 // The 'if' statement contains the condition that if the isStudent variable is equal to true 
     //AND the zip variable is greater than 80000, then the console.log will print, 'You're a student on the West Coast!'.
 // The first 'else if' statement contains the condition that if the isStudent variable is equal to false 
@@ -88,6 +88,7 @@ console.log(secret)
     // (and no other condition is added), then the console.log will print, 'Welcome to Prime!'.
 // The 'else' statement implies that if there is a combination of set variables that does 
     // NOT fit in with the other conditions, then the console.log will print, 'How about the weather?'.
+// We console.log 'Welcome to Prime!' becuase the isStudent variable is true.
 
 //CODE
 /*
@@ -168,6 +169,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - if (temp > 39 && time >= 4)
+// The if statement should contain both conditions to be true rather than one or the other. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -180,6 +183,18 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+/*
+ FIX - 
+ if(age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
+// Though the outcome is the same, the description says to check if age is greater than or equal to
+    // minAge rather than if minAge is less than or equal to age. Changing to match description.
+// FIX - the console.log statements should be switched because if the statement is true, 'enter' should be the first console.log.
+    // The second console.log statment should be 'no entry' because the else statement occurs when the conditional statement is not true.
 
 if(minAge <= age) {
   console.log('no entry');
