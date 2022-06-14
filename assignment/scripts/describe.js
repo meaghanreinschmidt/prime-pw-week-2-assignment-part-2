@@ -167,6 +167,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// POSSIBLE FIX/QUESTION: This doesn't affect the output of the question, but should time be a const variable rather than a let variable? Wondering for future reference. 
 const time = 4;
 
 // FIX - if (temp > 39 && time >= 4)
@@ -191,11 +192,13 @@ const minAge = 21;
 } else {
   console.log('no entry');
 }
+*/
 // Though the outcome is the same, the description says to check if age is greater than or equal to
     // minAge rather than if minAge is less than or equal to age. Changing to match description.
 // FIX - the console.log statements should be switched because if the statement is true, 'enter' should be the first console.log.
     // The second console.log statment should be 'no entry' because the else statement occurs when the conditional statement is not true.
 
+/*
 if(minAge <= age) {
   console.log('no entry');
 } else {
